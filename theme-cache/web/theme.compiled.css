@@ -27655,4 +27655,15 @@ input[type=checkbox].three-state-checkbox + .control-label {
   border-width: 0;
 }
 
+.container-3d {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.container-3d:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
 /*# sourceMappingURL=theme.compiled.css.map */
